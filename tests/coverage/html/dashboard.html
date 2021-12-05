@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/nbennouna/work/test-ekwateur/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="_css/style.css" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/home/nbennouna/work/test-ekwateur/src</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#7">Infrastructure\Shared\Traits\ErrorTrait</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/OfferTypeDenormalizer.php.html#8">Infrastructure\Symfony\Serializer\Normalizer\OfferTypeDenormalizer</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/DateTimeDenormalizer.php.html#7">Infrastructure\Symfony\Serializer\Normalizer\DateTimeDenormalizer</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#20">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector</a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/Dto/Error.php.html#8">Infrastructure\Ekwateur\Dto\Error</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Domain/Eshop/Offer/OfferList.php.html#5">Domain\Eshop\Offer\OfferList</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/PromocodeList.php.html#7">Domain\Eshop\Promocode\PromocodeList</a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/Promocode.php.html#10">Domain\Eshop\Promocode\Promocode</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiInMemoryConnector.php.html#21">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/Dto/ValidatedPromocode.php.html#8">Infrastructure\Ekwateur\Dto\ValidatedPromocode</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#7">Infrastructure\Shared\Traits\ErrorTrait</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#20">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector</a></td><td class="text-right">29</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/OfferTypeDenormalizer.php.html#8">Infrastructure\Symfony\Serializer\Normalizer\OfferTypeDenormalizer</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/PromocodeList.php.html#7">Domain\Eshop\Promocode\PromocodeList</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Domain/Eshop/Offer/OfferList.php.html#5">Domain\Eshop\Offer\OfferList</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/Promocode.php.html#10">Domain\Eshop\Promocode\Promocode</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiInMemoryConnector.php.html#21">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/DateTimeDenormalizer.php.html#7">Infrastructure\Symfony\Serializer\Normalizer\DateTimeDenormalizer</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/Dto/ValidatedPromocode.php.html#8">Infrastructure\Ekwateur\Dto\ValidatedPromocode</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Domain/Eshop/Offer/OfferList.php.html#69"><abbr title="Domain\Eshop\Offer\OfferList::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/Promocode.php.html#68"><abbr title="Domain\Eshop\Promocode\Promocode::getOffers">getOffers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/PromocodeList.php.html#89"><abbr title="Domain\Eshop\Promocode\PromocodeList::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/Dto/Error.php.html#21"><abbr title="Infrastructure\Ekwateur\Dto\Error::getErrorMessage">getErrorMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/Dto/ValidatedPromocode.php.html#41"><abbr title="Infrastructure\Ekwateur\Dto\ValidatedPromocode::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/Dto/ValidatedPromocode.php.html#46"><abbr title="Infrastructure\Ekwateur\Dto\ValidatedPromocode::toObject">toObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#17"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::getErrors">getErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#32"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::getLastError">getLastError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#37"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::getErrorCount">getErrorCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#42"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::clearErrors">clearErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#49"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#62"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::getCode">getCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#67"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::getDateTime">getDateTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/DateTimeDenormalizer.php.html#12"><abbr title="Infrastructure\Symfony\Serializer\Normalizer\DateTimeDenormalizer::denormalize">denormalize</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/OfferTypeDenormalizer.php.html#13"><abbr title="Infrastructure\Symfony\Serializer\Normalizer\OfferTypeDenormalizer::denormalize">denormalize</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#117"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffers">getOffers</abbr></a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#173"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodesFromCache">getPromocodesFromCache</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#210"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffersFromCache">getOffersFromCache</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Domain/Eshop/Offer/OfferList.php.html#15"><abbr title="Domain\Eshop\Offer\OfferList::__construct">__construct</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/PromocodeList.php.html#17"><abbr title="Domain\Eshop\Promocode\PromocodeList::__construct">__construct</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/Promocode.php.html#59"><abbr title="Domain\Eshop\Promocode\Promocode::addOffer">addOffer</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/OfferTypeDenormalizer.php.html#34"><abbr title="Infrastructure\Symfony\Serializer\Normalizer\OfferTypeDenormalizer::supportsDenormalization">supportsDenormalization</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#88"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#62"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::setOption">setOption</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Infrastructure/Actions/ValidatePromocode/ValidatePromocode.php.html#18"><abbr title="Infrastructure\Actions\ValidatePromocode\ValidatePromocode::__construct">__construct</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiInMemoryConnector.php.html#61"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiInMemoryConnector.php.html#80"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getOffers">getOffers</abbr></a></td><td class="text-right">77%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Infrastructure/Shared/Traits/ErrorTrait.php.html#49"><abbr title="Infrastructure\Shared\Traits\ErrorTrait::getMessage">getMessage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/OfferTypeDenormalizer.php.html#13"><abbr title="Infrastructure\Symfony\Serializer\Normalizer\OfferTypeDenormalizer::denormalize">denormalize</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#117"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffers">getOffers</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Domain/Eshop/Offer/OfferList.php.html#15"><abbr title="Domain\Eshop\Offer\OfferList::__construct">__construct</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/PromocodeList.php.html#17"><abbr title="Domain\Eshop\Promocode\PromocodeList::__construct">__construct</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/OfferTypeDenormalizer.php.html#34"><abbr title="Infrastructure\Symfony\Serializer\Normalizer\OfferTypeDenormalizer::supportsDenormalization">supportsDenormalization</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#88"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#62"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::setOption">setOption</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Infrastructure/Symfony/Serializer/Normalizer/DateTimeDenormalizer.php.html#12"><abbr title="Infrastructure\Symfony\Serializer\Normalizer\DateTimeDenormalizer::denormalize">denormalize</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#173"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodesFromCache">getPromocodesFromCache</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiHttpConnector.php.html#210"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffersFromCache">getOffersFromCache</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Domain/Eshop/Promocode/Promocode.php.html#59"><abbr title="Domain\Eshop\Promocode\Promocode::addOffer">addOffer</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiInMemoryConnector.php.html#61"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Infrastructure/Ekwateur/EkwateurApi/EkwateurApiInMemoryConnector.php.html#80"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getOffers">getOffers</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.9</a> using <a href="https://secure.php.net/" target="_top">PHP 8.1.0</a> and <a href="https://phpunit.de/">PHPUnit 9.5.10</a> at Sun Dec 5 16:55:02 UTC 2021.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js" type="text/javascript"></script>
+  <script src="_js/d3.min.js" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,1,0,0,1,2,1,5,1,14], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,1,0,4,5,4,0,1,65], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,12,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#10\">Domain\\Eshop\\Offer\\Offer<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/OfferException.php.html#5\">Domain\\Eshop\\Offer\\OfferException<\/a>"],[83.33333333333334,11,"<a href=\"Domain\/Eshop\/Offer\/OfferList.php.html#5\">Domain\\Eshop\\Offer\\OfferList<\/a>"],[85.71428571428571,11,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#10\">Domain\\Eshop\\Promocode\\Promocode<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeException.php.html#5\">Domain\\Eshop\\Promocode\\PromocodeException<\/a>"],[84.21052631578947,12,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#7\">Domain\\Eshop\\Promocode\\PromocodeList<\/a>"],[93.93939393939394,15,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocode.php.html#16\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocode<\/a>"],[100,2,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeRequest.php.html#7\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeRequest<\/a>"],[100,8,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#12\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse<\/a>"],[100,8,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#5\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter<\/a>"],[75,2,"<a href=\"Infrastructure\/Ekwateur\/Dto\/Error.php.html#8\">Infrastructure\\Ekwateur\\Dto\\Error<\/a>"],[88.23529411764706,5,"<a href=\"Infrastructure\/Ekwateur\/Dto\/ValidatedPromocode.php.html#8\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode<\/a>"],[100,0,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiException.php.html#7\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiException<\/a>"],[69.6969696969697,19,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#20\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector<\/a>"],[86.20689655172413,9,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiInMemoryConnector.php.html#21\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector<\/a>"],[100,8,"<a href=\"Infrastructure\/Ekwateur\/EkwateurManager\/EkwateurManager.php.html#10\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager<\/a>"],[100,5,"<a href=\"Infrastructure\/Symfony\/Command\/PromocodeValidateCommand.php.html#20\">Infrastructure\\Symfony\\Command\\PromocodeValidateCommand<\/a>"],[100,1,"<a href=\"Infrastructure\/Symfony\/Serializer\/EkwateurSerializer.php.html#14\">Infrastructure\\Symfony\\Serializer\\EkwateurSerializer<\/a>"],[66.66666666666666,5,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/DateTimeDenormalizer.php.html#7\">Infrastructure\\Symfony\\Serializer\\Normalizer\\DateTimeDenormalizer<\/a>"],[100,0,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/DateTimeDenormalizerException.php.html#5\">Infrastructure\\Symfony\\Serializer\\Normalizer\\DateTimeDenormalizerException<\/a>"],[53.84615384615385,8,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/OfferTypeDenormalizer.php.html#8\">Infrastructure\\Symfony\\Serializer\\Normalizer\\OfferTypeDenormalizer<\/a>"],[100,0,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/OfferTypeDenormalizerException.php.html#5\">Infrastructure\\Symfony\\Serializer\\Normalizer\\OfferTypeDenormalizerException<\/a>"],[100,3,"<a href=\"Domain\/Eshop\/Offer\/OfferType.php.html#7\">Domain\\Eshop\\Offer\\OfferType<\/a>"],[20,11,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#7\">Infrastructure\\Shared\\Traits\\ErrorTrait<\/a>"],[100,2,"<a href=\"Infrastructure\/Shared\/Traits\/SuccessTrait.php.html#5\">Infrastructure\\Shared\\Traits\\SuccessTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#18\">Domain\\Eshop\\Offer\\Offer::__construct<\/a>"],[100,3,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#25\">Domain\\Eshop\\Offer\\Offer::addPromocode<\/a>"],[100,4,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#41\">Domain\\Eshop\\Offer\\Offer::removePromocode<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#63\">Domain\\Eshop\\Offer\\Offer::getValidPromocodes<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#69\">Domain\\Eshop\\Offer\\Offer::getOfferType<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#74\">Domain\\Eshop\\Offer\\Offer::getOfferName<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/Offer.php.html#79\">Domain\\Eshop\\Offer\\Offer::getOfferDescription<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/OfferException.php.html#12\">Domain\\Eshop\\Offer\\OfferException::__construct<\/a>"],[60,3,"<a href=\"Domain\/Eshop\/Offer\/OfferList.php.html#15\">Domain\\Eshop\\Offer\\OfferList::__construct<\/a>"],[100,2,"<a href=\"Domain\/Eshop\/Offer\/OfferList.php.html#28\">Domain\\Eshop\\Offer\\OfferList::addOffer<\/a>"],[100,3,"<a href=\"Domain\/Eshop\/Offer\/OfferList.php.html#39\">Domain\\Eshop\\Offer\\OfferList::removeOffer<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/OfferList.php.html#56\">Domain\\Eshop\\Offer\\OfferList::getAll<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/OfferList.php.html#64\">Domain\\Eshop\\Offer\\OfferList::getIterator<\/a>"],[0,1,"<a href=\"Domain\/Eshop\/Offer\/OfferList.php.html#69\">Domain\\Eshop\\Offer\\OfferList::count<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#14\">Domain\\Eshop\\Promocode\\Promocode::__construct<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#24\">Domain\\Eshop\\Promocode\\Promocode::isValid<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#29\">Domain\\Eshop\\Promocode\\Promocode::getCode<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#34\">Domain\\Eshop\\Promocode\\Promocode::getDiscountValue<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#40\">Domain\\Eshop\\Promocode\\Promocode::getEndDate<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#45\">Domain\\Eshop\\Promocode\\Promocode::isValidForOffer<\/a>"],[100,2,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#50\">Domain\\Eshop\\Promocode\\Promocode::getOfferList<\/a>"],[66.66666666666666,2,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#59\">Domain\\Eshop\\Promocode\\Promocode::addOffer<\/a>"],[0,1,"<a href=\"Domain\/Eshop\/Promocode\/Promocode.php.html#68\">Domain\\Eshop\\Promocode\\Promocode::getOffers<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeException.php.html#10\">Domain\\Eshop\\Promocode\\PromocodeException::__construct<\/a>"],[60,3,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#17\">Domain\\Eshop\\Promocode\\PromocodeList::__construct<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#33\">Domain\\Eshop\\Promocode\\PromocodeList::getPromocodes<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#41\">Domain\\Eshop\\Promocode\\PromocodeList::getIterator<\/a>"],[100,2,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#51\">Domain\\Eshop\\Promocode\\PromocodeList::addPromocode<\/a>"],[100,3,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#67\">Domain\\Eshop\\Promocode\\PromocodeList::removePromocode<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#84\">Domain\\Eshop\\Promocode\\PromocodeList::getAll<\/a>"],[0,1,"<a href=\"Domain\/Eshop\/Promocode\/PromocodeList.php.html#89\">Domain\\Eshop\\Promocode\\PromocodeList::count<\/a>"],[75,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocode.php.html#18\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocode::__construct<\/a>"],[95.16129032258065,14,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocode.php.html#30\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocode::__invoke<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeRequest.php.html#9\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeRequest::__construct<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeRequest.php.html#14\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeRequest::getPromocode<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#21\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse::__construct<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#23\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse::setPromocodeValidated<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#31\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse::setValidatedOffers<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#38\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse::getValidatedOffers<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#43\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse::setValidatedPromocode<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#50\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse::getValidatedPromocode<\/a>"],[100,2,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponse.php.html#55\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponse::hasValidOffers<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#12\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter::__construct<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#14\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter::getFormattedOutput<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#20\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter::save<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#29\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter::getFile<\/a>"],[100,2,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#40\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter::format<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#56\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter::output<\/a>"],[100,1,"<a href=\"Infrastructure\/Actions\/ValidatePromocode\/ValidatePromocodeResponseJsonFormatter.php.html#64\">Infrastructure\\Actions\\ValidatePromocode\\ValidatePromocodeResponseJsonFormatter::__invoke<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/Dto\/Error.php.html#12\">Infrastructure\\Ekwateur\\Dto\\Error::__construct<\/a>"],[0,1,"<a href=\"Infrastructure\/Ekwateur\/Dto\/Error.php.html#21\">Infrastructure\\Ekwateur\\Dto\\Error::getErrorMessage<\/a>"],[100,2,"<a href=\"Infrastructure\/Ekwateur\/Dto\/ValidatedPromocode.php.html#16\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::__construct<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/Dto\/ValidatedPromocode.php.html#36\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::toJson<\/a>"],[0,1,"<a href=\"Infrastructure\/Ekwateur\/Dto\/ValidatedPromocode.php.html#41\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::toArray<\/a>"],[0,1,"<a href=\"Infrastructure\/Ekwateur\/Dto\/ValidatedPromocode.php.html#46\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::toObject<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#43\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::__construct<\/a>"],[100,2,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#55\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::setOptions<\/a>"],[71.42857142857143,3,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#62\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::setOption<\/a>"],[69.23076923076923,3,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#88\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getPromocodes<\/a>"],[52.94117647058824,4,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#117\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getOffers<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#162\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getPromocodesFromApi<\/a>"],[57.14285714285714,2,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#173\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getPromocodesFromCache<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#199\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getOffersFromApi<\/a>"],[57.14285714285714,2,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiHttpConnector.php.html#210\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getOffersFromCache<\/a>"],[100,5,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiInMemoryConnector.php.html#36\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector::__construct<\/a>"],[77.77777777777779,2,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiInMemoryConnector.php.html#61\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector::getPromocodes<\/a>"],[77.77777777777779,2,"<a href=\"Infrastructure\/Ekwateur\/EkwateurApi\/EkwateurApiInMemoryConnector.php.html#80\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector::getOffers<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/EkwateurManager\/EkwateurManager.php.html#22\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::__construct<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/EkwateurManager\/EkwateurManager.php.html#30\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::getPromocodes<\/a>"],[100,1,"<a href=\"Infrastructure\/Ekwateur\/EkwateurManager\/EkwateurManager.php.html#38\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::getOffers<\/a>"],[100,5,"<a href=\"Infrastructure\/Ekwateur\/EkwateurManager\/EkwateurManager.php.html#47\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::getEkwateurManagerHttpInstance<\/a>"],[100,1,"<a href=\"Infrastructure\/Symfony\/Command\/PromocodeValidateCommand.php.html#32\">Infrastructure\\Symfony\\Command\\PromocodeValidateCommand::__construct<\/a>"],[100,1,"<a href=\"Infrastructure\/Symfony\/Command\/PromocodeValidateCommand.php.html#42\">Infrastructure\\Symfony\\Command\\PromocodeValidateCommand::configure<\/a>"],[100,3,"<a href=\"Infrastructure\/Symfony\/Command\/PromocodeValidateCommand.php.html#53\">Infrastructure\\Symfony\\Command\\PromocodeValidateCommand::execute<\/a>"],[100,1,"<a href=\"Infrastructure\/Symfony\/Serializer\/EkwateurSerializer.php.html#16\">Infrastructure\\Symfony\\Serializer\\EkwateurSerializer::__construct<\/a>"],[33.33333333333333,2,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/DateTimeDenormalizer.php.html#12\">Infrastructure\\Symfony\\Serializer\\Normalizer\\DateTimeDenormalizer::denormalize<\/a>"],[100,3,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/DateTimeDenormalizer.php.html#21\">Infrastructure\\Symfony\\Serializer\\Normalizer\\DateTimeDenormalizer::supportsDenormalization<\/a>"],[50,5,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/OfferTypeDenormalizer.php.html#13\">Infrastructure\\Symfony\\Serializer\\Normalizer\\OfferTypeDenormalizer::denormalize<\/a>"],[66.66666666666666,3,"<a href=\"Infrastructure\/Symfony\/Serializer\/Normalizer\/OfferTypeDenormalizer.php.html#34\">Infrastructure\\Symfony\\Serializer\\Normalizer\\OfferTypeDenormalizer::supportsDenormalization<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/OfferType.php.html#13\">Domain\\Eshop\\Offer\\OfferType::label<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/OfferType.php.html#18\">Domain\\Eshop\\Offer\\OfferType::getLabel<\/a>"],[100,1,"<a href=\"Domain\/Eshop\/Offer\/OfferType.php.html#27\">Domain\\Eshop\\Offer\\OfferType::getValue<\/a>"],[0,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#17\">Infrastructure\\Shared\\Traits\\ErrorTrait::getErrors<\/a>"],[100,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#22\">Infrastructure\\Shared\\Traits\\ErrorTrait::addError<\/a>"],[100,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#27\">Infrastructure\\Shared\\Traits\\ErrorTrait::hasErrors<\/a>"],[0,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#32\">Infrastructure\\Shared\\Traits\\ErrorTrait::getLastError<\/a>"],[0,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#37\">Infrastructure\\Shared\\Traits\\ErrorTrait::getErrorCount<\/a>"],[0,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#42\">Infrastructure\\Shared\\Traits\\ErrorTrait::clearErrors<\/a>"],[0,3,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#49\">Infrastructure\\Shared\\Traits\\ErrorTrait::getMessage<\/a>"],[0,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#62\">Infrastructure\\Shared\\Traits\\ErrorTrait::getCode<\/a>"],[0,1,"<a href=\"Infrastructure\/Shared\/Traits\/ErrorTrait.php.html#67\">Infrastructure\\Shared\\Traits\\ErrorTrait::getDateTime<\/a>"],[100,1,"<a href=\"Infrastructure\/Shared\/Traits\/SuccessTrait.php.html#9\">Infrastructure\\Shared\\Traits\\SuccessTrait::isSuccess<\/a>"],[100,1,"<a href=\"Infrastructure\/Shared\/Traits\/SuccessTrait.php.html#14\">Infrastructure\\Shared\\Traits\\SuccessTrait::setSuccess<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

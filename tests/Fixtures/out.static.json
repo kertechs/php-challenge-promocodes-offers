@@ -1,0 +1,15 @@
+{
+  "promocode": "WOODY",
+  "endDate": "2022-05-29",
+  "discountValue": 1.75,
+  "compatibleOfferList": [
+    {
+      "name": "EKWAW2000",
+      "type": "WOOD"
+    },
+    {
+      "name": "EKWAW3000",
+      "type": "WOOD"
+    }
+  ]
+}

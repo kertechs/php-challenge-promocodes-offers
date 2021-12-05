@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/nbennouna/work/test-ekwateur/src/Infrastructure/Ekwateur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/nbennouna/work/test-ekwateur/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Infrastructure</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Ekwateur</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#20">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector</a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="Dto/Error.php.html#8">Infrastructure\Ekwateur\Dto\Error</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiInMemoryConnector.php.html#21">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Dto/ValidatedPromocode.php.html#8">Infrastructure\Ekwateur\Dto\ValidatedPromocode</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#20">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector</a></td><td class="text-right">29</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiInMemoryConnector.php.html#21">Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Dto/ValidatedPromocode.php.html#8">Infrastructure\Ekwateur\Dto\ValidatedPromocode</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Dto/Error.php.html#21"><abbr title="Infrastructure\Ekwateur\Dto\Error::getErrorMessage">getErrorMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dto/ValidatedPromocode.php.html#41"><abbr title="Infrastructure\Ekwateur\Dto\ValidatedPromocode::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dto/ValidatedPromocode.php.html#46"><abbr title="Infrastructure\Ekwateur\Dto\ValidatedPromocode::toObject">toObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#117"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffers">getOffers</abbr></a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#173"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodesFromCache">getPromocodesFromCache</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#210"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffersFromCache">getOffersFromCache</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#88"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#62"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::setOption">setOption</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiInMemoryConnector.php.html#61"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiInMemoryConnector.php.html#80"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getOffers">getOffers</abbr></a></td><td class="text-right">77%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#117"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffers">getOffers</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#88"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#62"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::setOption">setOption</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#173"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getPromocodesFromCache">getPromocodesFromCache</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiHttpConnector.php.html#210"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiHttpConnector::getOffersFromCache">getOffersFromCache</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiInMemoryConnector.php.html#61"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getPromocodes">getPromocodes</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="EkwateurApi/EkwateurApiInMemoryConnector.php.html#80"><abbr title="Infrastructure\Ekwateur\EkwateurApi\EkwateurApiInMemoryConnector::getOffers">getOffers</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.9</a> using <a href="https://secure.php.net/" target="_top">PHP 8.1.0</a> and <a href="https://phpunit.de/">PHPUnit 9.5.10</a> at Sun Dec 5 16:55:02 UTC 2021.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,0,0,1,1,2,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([3,0,0,0,0,0,3,1,3,0,0,12], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[75,2,"<a href=\"Dto\/Error.php.html#8\">Infrastructure\\Ekwateur\\Dto\\Error<\/a>"],[88.23529411764706,5,"<a href=\"Dto\/ValidatedPromocode.php.html#8\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode<\/a>"],[100,0,"<a href=\"EkwateurApi\/EkwateurApiException.php.html#7\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiException<\/a>"],[69.6969696969697,19,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#20\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector<\/a>"],[86.20689655172413,9,"<a href=\"EkwateurApi\/EkwateurApiInMemoryConnector.php.html#21\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector<\/a>"],[100,8,"<a href=\"EkwateurManager\/EkwateurManager.php.html#10\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Dto\/Error.php.html#12\">Infrastructure\\Ekwateur\\Dto\\Error::__construct<\/a>"],[0,1,"<a href=\"Dto\/Error.php.html#21\">Infrastructure\\Ekwateur\\Dto\\Error::getErrorMessage<\/a>"],[100,2,"<a href=\"Dto\/ValidatedPromocode.php.html#16\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::__construct<\/a>"],[100,1,"<a href=\"Dto\/ValidatedPromocode.php.html#36\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::toJson<\/a>"],[0,1,"<a href=\"Dto\/ValidatedPromocode.php.html#41\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::toArray<\/a>"],[0,1,"<a href=\"Dto\/ValidatedPromocode.php.html#46\">Infrastructure\\Ekwateur\\Dto\\ValidatedPromocode::toObject<\/a>"],[100,1,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#43\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::__construct<\/a>"],[100,2,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#55\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::setOptions<\/a>"],[71.42857142857143,3,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#62\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::setOption<\/a>"],[69.23076923076923,3,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#88\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getPromocodes<\/a>"],[52.94117647058824,4,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#117\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getOffers<\/a>"],[100,1,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#162\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getPromocodesFromApi<\/a>"],[57.14285714285714,2,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#173\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getPromocodesFromCache<\/a>"],[100,1,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#199\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getOffersFromApi<\/a>"],[57.14285714285714,2,"<a href=\"EkwateurApi\/EkwateurApiHttpConnector.php.html#210\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiHttpConnector::getOffersFromCache<\/a>"],[100,5,"<a href=\"EkwateurApi\/EkwateurApiInMemoryConnector.php.html#36\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector::__construct<\/a>"],[77.77777777777779,2,"<a href=\"EkwateurApi\/EkwateurApiInMemoryConnector.php.html#61\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector::getPromocodes<\/a>"],[77.77777777777779,2,"<a href=\"EkwateurApi\/EkwateurApiInMemoryConnector.php.html#80\">Infrastructure\\Ekwateur\\EkwateurApi\\EkwateurApiInMemoryConnector::getOffers<\/a>"],[100,1,"<a href=\"EkwateurManager\/EkwateurManager.php.html#22\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::__construct<\/a>"],[100,1,"<a href=\"EkwateurManager\/EkwateurManager.php.html#30\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::getPromocodes<\/a>"],[100,1,"<a href=\"EkwateurManager\/EkwateurManager.php.html#38\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::getOffers<\/a>"],[100,5,"<a href=\"EkwateurManager\/EkwateurManager.php.html#47\">Infrastructure\\Ekwateur\\EkwateurManager\\EkwateurManager::getEkwateurManagerHttpInstance<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
